@@ -26,27 +26,18 @@
 <id>default</id>
 <repositories>
     <repository>
-      <id>central</id>
-      <name>Central Repository</name>
-      <url>https://repo.maven.apache.org/maven2</url>
+      <id>remote</id>
+      <name>Jakarta Staging Repository</name>
+      <url>https://jakarta.oss.sonatype.org/content/repositories/staging/</url>
       <layout>default</layout>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
     </repository>
     <repository>
-      <id>central2</id>
-      <name>Central Repository</name>
-      <url>https://repo1.maven.apache.org/maven2</url>
-      <layout>default</layout>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>jboss</id>
-      <name>Central Repository</name>
-      <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+      <id>remote2</id>
+      <name>Spring Repository</name>
+      <url>https://repo.spring.io/plugins-release</url>
       <layout>default</layout>
       <snapshots>
         <enabled>true</enabled>

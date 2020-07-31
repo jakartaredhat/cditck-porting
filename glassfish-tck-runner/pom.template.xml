@@ -49,8 +49,8 @@
         <dependency>
             <groupId>jakarta.enterprise</groupId>
             <artifactId>jakarta.enterprise.cdi-api</artifactId>
-			<version>3.0.0-M4</version>
-        </dependency>		
+			<version>3.0.0</version>
+    </dependency>
 		<!--dependencies for cdi tck api-->
 		<dependency>
             <groupId>jakarta.annotation</groupId>
@@ -77,12 +77,12 @@
 		<dependency>
             <groupId>jakarta.inject</groupId>
             <artifactId>jakarta.inject-api</artifactId>
-			<version>2.0.0-RC3</version>
+			<version>2.0.0</version>
         </dependency>
 		<dependency>
             <groupId>jakarta.interceptor</groupId>
             <artifactId>jakarta.interceptor-api</artifactId>
-			<version>2.0.0-RC1</version>
+			<version>2.0.0</version>
         </dependency>
 		<dependency>
             <groupId>jakarta.transaction</groupId>
@@ -571,7 +571,7 @@
                     <dependency>
                         <groupId>org.jboss.arquillian.container</groupId>
                         <artifactId>arquillian-glassfish-managed-6</artifactId>
-                        <version>1.0.0.Final-SNAPSHOT</version>
+                        <version>1.0.0.Alpha1</version>
                     </dependency> 
                     <dependency>
                         <groupId>org.jboss.arquillian.protocol</groupId>
